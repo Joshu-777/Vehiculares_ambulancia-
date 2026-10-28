@@ -1,0 +1,42 @@
+═══════════════════════════════════════════════════════════
+  VALIDACIÓN A — Reporte automático
+  Wed Oct 28 21:41:38 UTC 2026
+═══════════════════════════════════════════════════════════
+── A1 · Red de la ciudad ──
+  COMPLETA:  34256 aristas, 337 semáforos,  3984.3 km
+  DEPURADA:   1745 aristas, 176 semáforos,   355.6 km
+── A2 · Tráfico 3 h sin teleporting ──
+  Corriendo sumo -c reto.sumocfg (esto tarda ~40s)...
+  Inserted  : 4709
+  Running   : 0  ✅ OK
+  Teleports : 0  ✅ OK
+  Collisions: 11
+  Tiempo de pared: 60 s
+── A3 · Hospitales mapeados ──
+  (los POIs aparecen en sumo-gui, tabla abajo)
+ Retrying in 1 seconds
+  ID            Tipo       Arista                     Dist
+  ───────────────────────────────────────────────────────
+  VCM           publico    208782596#1               81.2 m
+  IESS_JCA      publico    357285817#5              112.5 m
+  MILITAR       publico    334948974#1               12.4 m
+  MUNI_PAT      publico    378364650#0              135.6 m
+  MUNI_VALLE    publico    -171302162#23              8.3 m
+  MONTE_SINAI   privado    269103111#3               38.0 m
+  DEL_RIO       privado    118664605                 74.0 m
+── A4 · Flota aleatoria ──
+  VCM            publico    stock=3
+  IESS_JCA       publico    stock=1
+  MILITAR        publico    stock=1
+  MUNI_PAT       publico    stock=3
+  MUNI_VALLE     publico    stock=2
+  MONTE_SINAI    privado    stock=0
+  DEL_RIO        privado    stock=0
+  TOTAL: 10 ambulancias (semilla 42)
+
+  Stock=0 en privados: MONTE_SINAI, DEL_RIO ✅
+  Ambulancia de prueba VCM→IESS: ver flota_ambulancias.py
+═══════════════════════════════════════════════════════════
+  ✅ Validación A completa
+  Reporte: salida/validacion_A_reporte.txt
+═══════════════════════════════════════════════════════════
