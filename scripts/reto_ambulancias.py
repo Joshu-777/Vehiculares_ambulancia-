@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 reto_ambulancias.py — Reto completo FINAL (SUMO 1.12 + traci 1.12).
-Ejecutar:  python3 reto_ambulancias.py
 """
 import os, sys, random, math, csv
 
