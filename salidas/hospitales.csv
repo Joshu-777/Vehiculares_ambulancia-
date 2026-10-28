@@ -1,0 +1,8 @@
+id,tipo,stock_ini,stock_fin,despachos,retornos,rechazos,seg_ocupado,utilizacion
+VCM,publico,3,3,5,5,3,2570,7.93
+IESS_JCA,publico,2,1,2,1,0,1167,5.40
+MILITAR,publico,1,2,2,3,1,738,6.83
+MUNI_PAT,publico,2,1,2,1,0,1525,7.06
+MUNI_VALLE,publico,3,3,0,0,0,0,0.00
+MONTE_SINAI,privado,1,1,4,4,1,2223,20.58
+DEL_RIO,privado,0,1,0,1,0,0,0.00
