@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="cuenca_ciudad.net.xml"/>
+        <route-files value="fondo_car.rou.xml,fondo_bus.rou.xml,fondo_moto.rou.xml"/>
+        <additional-files value="vtypes.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="salida/tripinfo.xml"/>
+        <collision-output value="salida/collisions.xml"/>
+        <statistic-output value="salida/stats.xml"/>
+    </output>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+        <time-to-teleport.disconnected value="-1"/>
+        <collision.action value="warn"/>
+        <collision.check-junctions value="true"/>
+        <collision.mingap-factor value="0"/>
+        <ignore-route-errors value="true"/>
+        <ignore-junction-blocker value="60"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="12600"/>
+        <step-length value="1"/>
+    </time>
+
+    <report>
+        <no-step-log value="true"/>
+        <duration-log.disable value="true"/>
+    </report>
+</configuration>
